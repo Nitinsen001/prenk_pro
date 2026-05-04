@@ -77,7 +77,7 @@ else:
         base_url = f"http://{ip_address}:8501"
     else:
         # Jab tum host kar doge, tab apna website ka link yahan daal sakte ho
-        base_url = st.text_input("Apni hosted website ka link daalo:", value="https://tumhara-prank-project.streamlit.app")
+        base_url = st.text_input("Apni hosted website ka link daalo:", value="https://apnawifi.streamlit.app")
         # Ya fir baad me code me fix kar dena: base_url = "https://tumhara-prank-project.streamlit.app"
     
     # Final URL banana
