@@ -52,8 +52,8 @@ if "prank" in params:
 # ==========================================
 else:
     st.markdown("<h3 style='text-align: center; color: #ff4b4b; background-color: #ffe6e6; padding: 10px; border-radius: 10px;'>✨ Developed by Nitin ✨</h3>", unsafe_allow_html=True)
-    st.title("Free Wi-Fi Prank Generator 📶")
-    st.write("Apne doston ko 'Free Wi-Fi' bolke prank QR scan karwao!")
+    st.title("Free Wi-Fi for all jitians by QR Generator 📶")
+    st.write("Apne doston ko 'Free Wi-Fi' ka maja uthane do!")
     
     # Selectbox me options
     options_mapping = {
@@ -91,8 +91,8 @@ else:
     
     st.image(buf, caption=f"Scan for: {selected_text}", width=400)
     
-    with st.expander("Dekho background URL kaisa ban raha hai:"):
-        st.code(url)
+    # with st.expander("Dekho background URL kaisa ban raha hai:"):
+    #     st.code(url)
 
 
 
